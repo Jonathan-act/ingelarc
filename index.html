@@ -17,6 +17,7 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -26,7 +27,11 @@
                 
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" 
                     data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="29" fill="currentColor" class="bi bi-list"
+                        viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>                     
                 </button>
                 
                 <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -55,12 +60,17 @@
             </div>
         </header>
         
+        <a href="https://api.whatsapp.com/send?phone=56975327591&text=Hola%20DuoElectric!">
+            <img src="./assets/img/wsp.png" class="fixed-bottom ml-2 mb-2" width="60">
+        </a>
+
         <section class="page-section text-center" id="services">
             <div class="container">
                 <h2 class="text-center mt-0">Nuestros servicios</h2>
                 <hr class="divider my-4" />
                 <div class="row">
 
+                    <!--
                     <div class="card border-warning mb-3" style="max-width: 18rem;">
                         <div class="card-header bg-warning"></div>
                         <div class="card-body">
@@ -84,22 +94,23 @@
                             <p class="card-text">Instalación de medidores de electrcidad</p>
                         </div>
                     </div>
+                    -->
 
-                    <div class="col-lg-3 col-md-6 text-center">
+                    <div class="col-lg-3 col-md-6 text-center m-auto">
                         <div class="mt-5">
                             <!-- <i class="fas fa-4x fa-gem text-primary mb-4"></i> -->
                             <h3 class="h4 mb-2">Certificaciones</h3>
                             <p class="text-muted mb-0">Certificacioens de equipos e instalaciones electricas</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 text-center">
+                    <div class="col-lg-3 col-md-6 text-center m-auto">
                         <div class="mt-5">
                             <!-- <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i> -->
                             <h3 class="h4 mb-2">Obras civiles menores</h3>
                             <p class="text-muted mb-0">Trabajos de obras civiles para PYMEs y particulares</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 text-center">
+                    <div class="col-lg-3 col-md-6 text-center m-auto">
                         <div class="mt-5">
                             <!-- <i class="fas fa-4x fa-globe text-primary mb-4"></i> -->
                             <h3 class="h4 mb-2">Medidores</h3>
@@ -180,7 +191,7 @@
                 <hr>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d797.2771720636027!2d-73.02673547078741!3d-36.93556992678417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669b9c780707741%3A0x4188031f3a4df94c!2zSmVydXNhbMOpbiAxNCwgQ2hpZ3VheWFudGUsIELDrW8gQsOtbw!5e0!3m2!1ses!2scl!4v1622505424449!5m2!1ses!2scl"
-                    
+                    class="col-10 col-lg-12"
                     width="1000" 
                     height="450" 
                     style="border:0;" 
@@ -211,10 +222,105 @@
                 </div>
             </div>            
         </section>
-        <hr>
+        
+        <!--
         <footer class="bg-light py-5">
             <div class="container"><div class="small text-center text-muted">Copyright © 2021 - DuoElectric Spa.</div></div>
         </footer>
+        -->
+
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-dark text-muted">
+        
+            <!-- Section: Links  -->
+            <section class="">
+                <div class="container text-center text-md-start pt-3">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <i class="fas fa-gem me-3"></i> DuoElectric
+                            </h6>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum porro quos, odio sapiente fuga ipsa voluptates cupiditate culpa enim natus modi vero obcaecati quaerat corrupti eaque animi mollitia totam velit.
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+        
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Servicios
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">Servicio 1</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Servicio 2</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Servicio 3</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Servicio 4</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+        
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Links
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">Pricing</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Settings</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Orders</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Help</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+        
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Contacto
+                            </h6>
+                            <p><i class="fas fa-home me-3"></i> Chiguayante, Concepción</p>
+                            <p>
+                                <i class="fas fa-envelope me-3"></i>
+                                Contacto@duoelectric.cl
+                            </p>
+                            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+        
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2021 Copyright:
+                <a class="text-reset fw-bold">DuoElectric</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
@@ -223,5 +329,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        
     </body>
 </html>
