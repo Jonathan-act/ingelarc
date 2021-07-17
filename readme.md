@@ -1,4 +1,4 @@
-# [DuoElectric](https://jonathan-act.github.io/duoelectric/index.html)
+# [DuoElectric](www.duoelectric.cl)
 ![](./assets/page.png)
 
 # Landing DuoElectric Chiguayante
