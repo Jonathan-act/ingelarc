@@ -10,6 +10,9 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+ /*
+ C=
+ */
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -2592,13 +2595,13 @@ fieldset:disabled a.btn {
 
 .btn-warning {
   color: #212529;
-  background-color: #ffc107;
-  border-color: #ffc107;
+  background-color: #134274;
+  border-color: #007b;
 }
 .btn-warning:hover {
   color: #212529;
-  background-color: #e0a800;
-  border-color: #d39e00;
+  background-color: #007b;
+  border-color: #134274;
 }
 .btn-warning:focus, .btn-warning.focus {
   color: #212529;
@@ -9830,7 +9833,7 @@ a.text-info:hover, a.text-info:focus {
 }
 
 .text-warning {
-  color: #ffc107 !important;
+  color: #007b !important;
 }
 
 a.text-warning:hover, a.text-warning:focus {
@@ -10008,7 +10011,7 @@ html {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: #cccf0d;
+  border-color: #134274;
 }
 
 hr.light {
@@ -10053,7 +10056,7 @@ hr.light {
   color: #a6c400;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #dfcb1a !important;
+  color: #007b !important;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -10145,7 +10148,7 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(169, 187, 7, 0.9);
+  background: #007b;
   transition: opacity 0.25s ease;
   text-align: center;
 }
